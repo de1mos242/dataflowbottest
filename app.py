@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World from heroku 2!'
+    return 'Hello, World from heroku 3!'
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
